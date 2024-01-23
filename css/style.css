@@ -1,53 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
-    background-color: #2F4F4F
+    background-color: #44A2C0
 
 }
 
 /* HEADER*/  
+
 header{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: black;
     height: 200px;
     position: sticky;
-    justify-content: end;
-    align-items: center;
 }
-
+.logomcizarr{
+    height: 200px;
+    width: 400px;   
+}
 .lista-nav{
     display: flex;
     list-style: none;
     justify-content: space-around;
+    align-items: center;
     width: 800px;
-    border: 5px #2F4F4F solid;
+    border: 5px #44A2C0 solid;
     border-radius: 25px;
     padding: 25px 5px;
-    margin: 20px;
+    margin: 20px;    
 }
-
-.nav-item{
-    display: flex;
-    align-content: space-around;  
-}
-
-.nav-item a{
+.lista-nav a{
     font-family: 'Poppins', sans-serif;
-    display: flex;
     text-decoration: none;
     color: white;
     font-size: 20px;      
 }
-
-.logomcizarr{
-    display: flex;
-    position: absolute;
-    height: 200px;
-    width: 400px;
-    top: 0px;
-    left: 300px
-}
-
 
 /* MAIN */
 
@@ -55,34 +43,40 @@ main h1{
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
     text-decoration: underline;
-    padding: 70px;
+    padding: 40px;
     display: flex;
     justify-content: center;
     color:black;    
 }
-main img{   
- 
-  
-    border: 5px black solid;
-    width: 50%;
-    height: 100%;
-    left: 750px;
-   
-    
-}
-.carousel-item{
-    
-   
-    width: 50%;
-    height: 500px;
-
-}
-.d-item{
-
+main h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    padding: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    color:black;    
 }
-
+.videosyoutube{
+    display: flex;
+    justify-content: center;
+}
+main iframe{
+    border: 8px solid black;
+}
+.parrafovideos{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.parrafovideos p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px; 
+    color: black;  
+    padding: 10px; 
+    border: 5px solid black;   
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;   
+}
 
 

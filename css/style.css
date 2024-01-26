@@ -64,6 +64,14 @@ main h3{
     justify-content: center;
     color:white;    
 }
+main h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    color:black;    
+}
 .videosyoutube{
     display: flex;
     justify-content: center;
@@ -116,17 +124,16 @@ footer{
     width: 350px; 
  }
 
+/*MAIN BEATMAKER*/
+
  .grid-contenedor{
     display: grid;
     gap: 80px;
     background-color: #44A2C0;
     grid-template-columns: 1fr 1fr ; 
     grid-template-rows: 1fr 1fr;
-    padding: 80px;
-        
-
+    padding: 80px;        
  }
-
  .grid-contenedor div{
     background-color: black;
     border: 2.5px black solid;
@@ -134,10 +141,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
-    
-
+    flex-direction: column;  
  }
 .imagengrid{
     height: 500px;
@@ -159,12 +163,117 @@ footer{
     -moz-border-radius: 20px 20px 20px 20px;   
 }
 
+/*MAIN ARTISTAS*/
+
+.artistas-class p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; 
+    color: black;  
+    padding: 10px;
+    margin-bottom: 100px; 
+    border: 5px solid black; 
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;  
+}
+.tituloart{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;  
+}  
+.carousel-inner{
+    padding: 100px;
+}
+.carousel-inner img{
+    height: 800px;
+    width: 700px;
+    border: 5px solid black; 
+}
+
+/*MAIN PISTAS*/
+
+.pistas-class p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; 
+    color: black;  
+    padding: 10px;
+    margin: 100px;     
+    border: 5px solid black; 
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    
+}
+
+/*MAIN QUIENES SOMOS*/
+
+.mb-3{   
+    
+    height: 300x;
+    margin: 0px 500px 0px 500px;
+   
+}
+.quienes-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.quienes-class p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; 
+    color: black;  
+    padding: 10px;
+    margin: 10px; 
+    
+
+}
+.map-quienes{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.div-mision{
+    border: 5px solid black; 
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px; 
+    margin: 100px;
+    
+
+
+}
+.div-vision{
+    border: 5px solid black; 
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    margin: 100px; 
+
+    
+}
+
+
+
+/*RESPONSIVE*/
 @media screen and (max-width: 480px){
 /*Modificaciones Header*/
 header{
     flex-direction: column;
-    height: 150px;
-    
+    height: 150px;    
 }
 .logomcizarr{
     height: 100px;

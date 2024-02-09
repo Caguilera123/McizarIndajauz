@@ -1,0 +1,39 @@
+/*MAIN BEATMAKER*/
+main {
+
+
+    .grid-contenedor {
+        display: grid;
+        gap: 80px;
+        background-color: $celeste;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 80px;
+
+        div {
+            @include flex (column, center, center);
+            background-color: $negro;
+            border: 2.5px $negro solid;
+            height: 600px;
+        }
+
+        .imagengrid {
+            height: 500px;
+            width: 700px;
+            border: 2.5px $celeste solid;
+        }
+
+        p {
+            @include flex (row, center, center);
+            font-family: $font;
+            font-size: 20px;
+            color: $blanco;
+            padding: 10px;
+            margin: 10px;
+            border: 5px solid $celeste;
+            border-radius: 20px 20px 20px 20px;
+            -webkit-border-radius: 20px 20px 20px 20px;
+            -moz-border-radius: 20px 20px 20px 20px;
+        }
+    }
+}

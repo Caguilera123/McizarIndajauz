@@ -1,0 +1,46 @@
+/*MAIN QUIENES SOMOS*/
+main {
+    .quienes-class {
+        @include flex (column, center, center);
+
+        p {
+            @include flex (row, center, center);
+            font-family: $font;
+            font-size: 20px;
+            color: $negro;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .map-quienes {
+            @include flex (row, center, center);
+            padding: 100px;
+        }
+
+        .div-mision {
+            border: 5px solid $negro;
+            border-radius: 20px 20px 20px 20px;
+            -webkit-border-radius: 20px 20px 20px 20px;
+            -moz-border-radius: 20px 20px 20px 20px;
+            margin: 100px;
+        }
+
+        .div-vision {
+            border: 5px solid $negro;
+            border-radius: 20px 20px 20px 20px;
+            -webkit-border-radius: 20px 20px 20px 20px;
+            -moz-border-radius: 20px 20px 20px 20px;
+            margin: 100px;
+        }
+
+        .mb-3 {
+            width: 800px;
+            @include flex (column, center, center);
+        }
+
+        .btn {
+            @include flex (column, center, center);
+        }
+
+    }
+}

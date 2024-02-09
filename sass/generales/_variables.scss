@@ -1,0 +1,19 @@
+/*tipografia*/
+
+$font: 'Poppins', sans-serif;
+
+/*colores*/
+
+$celeste: #44A2C0;
+$negro: #000000;
+$blanco: #ffffff;
+
+/*mixin*/
+
+@mixin flex ($direccion, $justify, $aling) {
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $aling;
+
+}

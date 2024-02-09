@@ -1,0 +1,488 @@
+/*tipografia*/
+/*colores*/
+/*mixin*/
+/*Estilos generales*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: #44A2C0;
+}
+
+main h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  text-decoration: underline;
+  padding: 40px;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+main h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+main h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+/*HEADER*/
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  height: 200px;
+  position: sticky;
+}
+
+header .logomcizarr {
+  height: 200px;
+  width: 400px;
+}
+
+header .lista-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 800px;
+  border: 5px #44A2C0 solid;
+  border-radius: 25px;
+  padding: 25px 5px;
+  margin: 20px;
+}
+
+header .lista-nav a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  height: 150px;
+}
+
+footer .logomcizarrfooter {
+  height: 150px;
+  width: 350px;
+}
+
+footer .listalogos {
+  display: flex;
+  list-style: none;
+}
+
+footer .listalogos .logosfooter {
+  margin-right: 100px;
+}
+
+footer .listalogos .logosfooter .logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  width: 65px;
+  border: 2.5px #44A2C0 solid;
+}
+
+/*INDEX*/
+main .videosyoutube {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main .iframe-video {
+  border: 5px solid #000000;
+}
+
+main .parrafovideos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+main .parrafovideos p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #000000;
+  padding: 10px;
+  border: 5px solid #000000;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+}
+
+/*MAIN BEATMAKER*/
+main .grid-contenedor {
+  display: grid;
+  gap: 80px;
+  background-color: #44A2C0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 80px;
+}
+
+main .grid-contenedor div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  border: 2.5px #000000 solid;
+  height: 600px;
+}
+
+main .grid-contenedor .imagengrid {
+  height: 500px;
+  width: 700px;
+  border: 2.5px #44A2C0 solid;
+}
+
+main .grid-contenedor p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border: 5px solid #44A2C0;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+}
+
+/*MAIN PISTAS*/
+main .pistas-class p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px;
+  margin: 100px;
+  border: 5px solid #000000;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+}
+
+/*MAIN ARTISTAS*/
+main .artistas-class {
+  padding: 20px;
+}
+
+main .artistas-class p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px;
+  margin-bottom: 100px;
+  border: 5px solid #000000;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+}
+
+main .artistas-class .carousel-inner {
+  padding: 50px 300px 100px 300px;
+}
+
+main .artistas-class .carousel-inner img {
+  height: 600px;
+  width: 400px;
+  border: 5px solid #000000;
+}
+
+/*MAIN QUIENES SOMOS*/
+main .quienes-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .quienes-class p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px;
+  margin: 10px;
+}
+
+main .quienes-class .map-quienes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+main .quienes-class .div-mision {
+  border: 5px solid #000000;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  margin: 100px;
+}
+
+main .quienes-class .div-vision {
+  border: 5px solid #000000;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  margin: 100px;
+}
+
+main .quienes-class .mb-3 {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .quienes-class .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 480px) {
+
+  /*Modificaciones Header*/
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+
+  header .logomcizarr {
+    height: 100px;
+    width: 300px;
+  }
+
+  header .lista-nav {
+    width: 450px;
+    border: 2.5px #44A2C0 solid;
+    border-radius: 5px;
+    padding: 5px 2px 5px 2px;
+    margin: 1px;
+  }
+
+  header .lista-nav a {
+    font-size: 12.5px;
+  }
+
+  /*Modificaciones Main Index*/
+  main h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  main h2 {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  main .parrafovideos {
+    padding: 30px;
+  }
+
+  main .parrafovideos p {
+    font-size: 10px;
+  }
+
+  /*Modificaciones FOOTER*/
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  footer .logomcizarrfooter {
+    height: 100px;
+    width: 300px;
+  }
+
+  footer .listalogos .logosfooter {
+    margin-right: 50px;
+  }
+
+  footer .listalogos .logosfooter .logos {
+    height: 50px;
+    width: 50px;
+  }
+
+  /*MODIFICACIONES MAIN BEATMAKERS*/
+  main .grid-contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "div1" "div2" "div4" "div3" "div5" "div6";
+    gap: 5px;
+    padding: 0px 0px 5px 0px;
+  }
+
+  main .grid-contenedor .grid-div1 {
+    grid-area: div1;
+  }
+
+  main .grid-contenedor .grid-div2 {
+    grid-area: div2;
+  }
+
+  main .grid-contenedor .grid-div3 {
+    grid-area: div3;
+  }
+
+  main .grid-contenedor .grid-div4 {
+    grid-area: div4;
+  }
+
+  main .grid-contenedor .grid-div5 {
+    grid-area: div5;
+  }
+
+  main .grid-contenedor .grid-div6 {
+    grid-area: div6;
+  }
+
+  main .grid-contenedor div {
+    height: 400px;
+    width: 100%;
+  }
+
+  main .grid-contenedor div .imagengrid {
+    height: 300px;
+    width: 300px;
+  }
+
+  main .grid-contenedor div p {
+    font-size: 10px;
+  }
+
+  main .grid-contenedor h3 {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  /*MAIN PISTAS*/
+  main .pistas-class p {
+    font-size: 10px;
+    margin: 30px;
+  }
+
+  /*MAIN QUIENES SOMOS*/
+  main .quienes-class p {
+    font-size: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  main .quienes-class .map-quienes {
+    padding: 100px;
+  }
+
+  main .quienes-class .map-quienes iframe {
+    height: 300px;
+    width: 400px;
+  }
+
+  main .quienes-class .div-mision {
+    margin: 50px;
+  }
+
+  main .quienes-class .div-vision {
+    margin: 50px;
+  }
+
+  main .quienes-class .mb-3 {
+    width: 300px;
+  }
+
+  main .quienes-class h3 {
+    padding: 15px;
+  }
+
+  /*MAIN ARTISTAS*/
+  main .artistas-class p {
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+  main .artistas-class .carousel-inner {
+    padding: 30px;
+  }
+
+  main .artistas-class .carousel-inner img {
+    height: 350px;
+  }
+
+  main h4 {
+    font-size: 50px;
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

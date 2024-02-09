@@ -1,0 +1,62 @@
+/*HEADER*/
+
+header {
+    @include flex (row, space-around, center);
+    background-color: $negro;
+    height: 200px;
+    position: sticky;
+
+    .logomcizarr {
+        height: 200px;
+        width: 400px;
+    }
+
+    .lista-nav {
+        @include flex (row, space-around, center);
+        list-style: none;
+        width: 800px;
+        border: 5px $celeste solid;
+        border-radius: 25px;
+        padding: 25px 5px;
+        margin: 20px;
+
+
+    }
+
+    .lista-nav a {
+        font-family: $font;
+        text-decoration: none;
+        color: $blanco;
+        font-size: 20px;
+    }
+
+}
+
+/*FOOTER*/
+
+footer {
+    @include flex (row, space-around, center);
+    background-color: $negro;
+    height: 150px;
+
+    .logomcizarrfooter {
+        height: 150px;
+        width: 350px;
+    }
+
+    .listalogos {
+        display: flex;
+        list-style: none;
+
+        .logosfooter {
+            margin-right: 100px;
+
+            .logos {
+                @include flex (row, space-around, center);
+                height: 65px;
+                width: 65px;
+                border: 2.5px $celeste solid;
+            }
+        }
+    }
+}

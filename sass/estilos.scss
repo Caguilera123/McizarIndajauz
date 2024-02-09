@@ -1,0 +1,50 @@
+@import "generales/variables";
+
+/*Estilos generales*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: $celeste;
+}
+
+main h1 {
+    font-family: $font;
+    font-size: 70px;
+    text-decoration: underline;
+    padding: 40px;
+    color: $negro;
+    @include flex (row, center, center);
+}
+
+main h2 {
+    font-family: $font;
+    font-size: 50px;
+    padding: 50px;
+    @include flex (row, center, center);
+    color: $negro;
+}
+
+main h3 {
+    font-family: $font;
+    font-size: 50px;
+    padding: 50px;
+    @include flex (row, center, center);
+    color: $blanco;
+}
+
+main h4 {
+    font-family: $font;
+    font-size: 100px;
+    padding: 50px;
+    @include flex (row, center, center);
+    color: $negro;
+}
+
+@import "generales/headerFooter";
+@import "page/index";
+@import "page/beatmakers";
+@import "page/pistas";
+@import "page/artistas";
+@import "page/quienes";
+@import "generales/mediaQ";

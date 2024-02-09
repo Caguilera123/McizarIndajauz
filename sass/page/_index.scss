@@ -1,0 +1,28 @@
+/*INDEX*/
+main {
+    .videosyoutube {
+        @include flex (row, center, center);
+
+    }
+
+    .iframe-video {
+        border: 5px solid $negro;
+    }
+
+    .parrafovideos {
+        @include flex (row, center, center);
+        padding: 60px;
+    }
+
+    .parrafovideos p {
+        font-family: $font;
+        font-size: 25px;
+        color: $negro;
+        padding: 10px;
+        border: 5px solid $negro;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+    }
+
+}

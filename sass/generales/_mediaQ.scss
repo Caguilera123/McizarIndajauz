@@ -8,15 +8,15 @@
 
         .logomcizarr {
             height: 100px;
-            width: 300px;
+            width: 200px;
         }
 
         .lista-nav {
-            width: 450px;
+            width: 320px;
             border: 2.5px $celeste solid;
             border-radius: 5px;
-            padding: 5px 2px 5px 2px;
-            margin: 1px;
+            padding: 5px 0px 5px 0px;
+            margin: 0px;
         }
 
         .lista-nav a {
@@ -53,14 +53,14 @@
 
         .logomcizarrfooter {
             height: 100px;
-            width: 300px;
+            width: 200px;
         }
 
         .listalogos {
 
 
             .logosfooter {
-                margin-right: 50px;
+                margin-right: 10px;
 
                 .logos {
                     height: 50px;
@@ -161,21 +161,25 @@
         }
 
         .map-quienes {
-            padding: 100px;
+            padding: 15px 0px 15px 0px;
 
             iframe {
                 height: 300px;
-                width: 400px;
+                width: 350px;
             }
 
         }
 
+        .div-misionvision{
+            @include flex (column, center, center);
+
+        }
         .div-mision {
-            margin: 50px;
+            margin: 25px;
         }
 
         .div-vision {
-            margin: 50px;
+            margin: 25px;
         }
 
         .mb-3 {

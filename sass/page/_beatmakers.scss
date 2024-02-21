@@ -4,11 +4,11 @@ main {
 
     .grid-contenedor {
         display: grid;
-        gap: 80px;
+        gap: 20px;
         background-color: $celeste;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        padding: 80px;
+        padding: 20px;
 
         div {
             @include flex (column, center, center);
@@ -18,8 +18,8 @@ main {
         }
 
         .imagengrid {
-            height: 500px;
-            width: 700px;
+            height: 450px;
+            width: 500px;
             border: 2.5px $celeste solid;
         }
 

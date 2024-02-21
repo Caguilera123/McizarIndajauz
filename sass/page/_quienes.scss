@@ -16,6 +16,10 @@ main {
             @include flex (row, center, center);
             padding: 100px;
         }
+        .div-misionvision{
+            @include flex (row, center, center);
+
+        }
 
         .div-mision {
             border: 5px solid $negro;

@@ -6,7 +6,7 @@ main {
         p {
             @include flex (row, center, center);
             font-family: $font;
-            font-size: 20px;
+            font-size: 25px;
             color: $negro;
             padding: 10px;
             margin: 10px;

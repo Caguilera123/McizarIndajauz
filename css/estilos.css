@@ -189,10 +189,10 @@ main .pistas-class p {
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   color: #000000;
   padding: 10px;
-  margin: 100px;
+  margin: 30px;
   border: 5px solid #000000;
   border-radius: 20px 20px 20px 20px;
   -webkit-border-radius: 20px 20px 20px 20px;
@@ -209,7 +209,7 @@ main .artistas-class p {
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   color: #000000;
   padding: 10px;
   margin-bottom: 100px;
@@ -240,7 +240,7 @@ main .quienes-class p {
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   color: #000000;
   padding: 10px;
   margin: 10px;
@@ -287,7 +287,8 @@ main .quienes-class .btn {
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width: 480px) {
+/*MOBILE*/
+@media screen and (max-width: 500px) {
   /*Modificaciones Header*/
   header {
     display: flex;
@@ -323,7 +324,7 @@ main .quienes-class .btn {
     padding: 30px;
   }
   main .parrafovideos p {
-    font-size: 10px;
+    font-size: 15px;
   }
   /*Modificaciones FOOTER*/
   footer {
@@ -379,7 +380,7 @@ main .quienes-class .btn {
     width: 300px;
   }
   main .grid-contenedor div p {
-    font-size: 10px;
+    font-size: 12.5px;
   }
   main .grid-contenedor h3 {
     font-size: 20px;
@@ -387,17 +388,17 @@ main .quienes-class .btn {
   }
   /*MAIN PISTAS*/
   main .pistas-class p {
-    font-size: 10px;
+    font-size: 15px;
     margin: 30px;
   }
   /*MAIN QUIENES SOMOS*/
   main .quienes-class p {
-    font-size: 10px;
+    font-size: 15px;
     padding: 10px;
     margin: 10px;
   }
   main .quienes-class .map-quienes {
-    padding: 15px 0px 15px 0px;
+    padding: 30px 0px 30px 0px;
   }
   main .quienes-class .map-quienes iframe {
     height: 300px;
@@ -423,7 +424,7 @@ main .quienes-class .btn {
   }
   /*MAIN ARTISTAS*/
   main .artistas-class p {
-    font-size: 10px;
+    font-size: 15px;
     padding: 10px;
     margin-bottom: 50px;
   }
@@ -432,6 +433,153 @@ main .quienes-class .btn {
   }
   main .artistas-class .carousel-inner img {
     height: 350px;
+  }
+  main h4 {
+    font-size: 50px;
+    padding: 20px;
+  }
+  /*TABLET*/
+}
+@media (min-width: 500px) and (max-width: 1050px) {
+  /*Modificaciones Header*/
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  header .logomcizarr {
+    height: 100px;
+    width: 300px;
+  }
+  header .lista-nav {
+    width: 500px;
+    border: 4px #44A2C0 solid;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+  }
+  header .lista-nav a {
+    font-size: 17.5px;
+  }
+  /*Modificaciones Main Index*/
+  main h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+  main h2 {
+    font-size: 35px;
+    padding: 20px;
+  }
+  main .parrafovideos {
+    padding: 30px;
+  }
+  main .parrafovideos p {
+    font-size: 17.5px;
+  }
+  /*Modificaciones FOOTER*/
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  footer .logomcizarrfooter {
+    height: 100px;
+    width: 200px;
+  }
+  footer .listalogos .logosfooter {
+    margin-right: 10px;
+  }
+  footer .listalogos .logosfooter .logos {
+    height: 50px;
+    width: 50px;
+  }
+  /*MODIFICACIONES MAIN BEATMAKERS*/
+  main .grid-contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "div1" "div2" "div4" "div3" "div5" "div6";
+    gap: 5px;
+    padding: 0px 0px 5px 0px;
+  }
+  main .grid-contenedor .grid-div1 {
+    grid-area: div1;
+  }
+  main .grid-contenedor .grid-div2 {
+    grid-area: div2;
+  }
+  main .grid-contenedor .grid-div3 {
+    grid-area: div3;
+  }
+  main .grid-contenedor .grid-div4 {
+    grid-area: div4;
+  }
+  main .grid-contenedor .grid-div5 {
+    grid-area: div5;
+  }
+  main .grid-contenedor .grid-div6 {
+    grid-area: div6;
+  }
+  main .grid-contenedor div {
+    height: 400px;
+    width: 100%;
+  }
+  main .grid-contenedor div .imagengrid {
+    height: 350px;
+    width: 480px;
+  }
+  main .grid-contenedor div p {
+    font-size: 17.5px;
+  }
+  main .grid-contenedor h3 {
+    font-size: 30px;
+    padding: 20px;
+  }
+  /*MAIN QUIENES SOMOS*/
+  main .quienes-class p {
+    font-size: 17.5px;
+    padding: 10px;
+    margin: 10px;
+  }
+  main .quienes-class .map-quienes {
+    padding: 30px 0px 30px 0px;
+  }
+  main .quienes-class .map-quienes iframe {
+    height: 350px;
+    width: 480px;
+  }
+  main .quienes-class .div-misionvision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .quienes-class .div-mision {
+    margin: 25px;
+  }
+  main .quienes-class .div-vision {
+    margin: 25px;
+  }
+  main .quienes-class .mb-3 {
+    width: 480px;
+  }
+  main .quienes-class h3 {
+    padding: 15px;
+  }
+  /*MAIN ARTISTAS*/
+  main .artistas-class p {
+    font-size: 17.5px;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  main .artistas-class .carousel-inner {
+    padding: 40px;
+  }
+  main .artistas-class .carousel-inner img {
+    height: 450px;
   }
   main h4 {
     font-size: 50px;

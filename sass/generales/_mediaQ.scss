@@ -1,5 +1,7 @@
 /*RESPONSIVE*/
-@media screen and (max-width: 480px) {
+
+/*MOBILE*/
+@media screen and (max-width: 500px) {
 
     /*Modificaciones Header*/
     header {
@@ -40,7 +42,7 @@
             padding: 30px;
 
             p {
-                font-size: 10px;
+                font-size: 15px;
             }
         }
 
@@ -125,7 +127,7 @@
                 }
 
                 p {
-                    font-size: 10px;
+                    font-size: 12.5px;
 
                 }
 
@@ -145,7 +147,7 @@
 
     main .pistas-class {
         p {
-            font-size: 10px;
+            font-size: 15px;
             margin: 30px;
         }
 
@@ -155,13 +157,13 @@
     /*MAIN QUIENES SOMOS*/
     main .quienes-class {
         p {
-            font-size: 10px;
+            font-size: 15px;
             padding: 10px;
             margin: 10px;
         }
 
         .map-quienes {
-            padding: 15px 0px 15px 0px;
+            padding: 30px 0px 30px 0px;
 
             iframe {
                 height: 300px;
@@ -195,7 +197,7 @@
     /*MAIN ARTISTAS*/
     main {
     .artistas-class p {      
-      font-size: 10px;      
+      font-size: 15px;      
       padding: 10px;
       margin-bottom: 50px;   
     }
@@ -213,5 +215,209 @@
 
 }
 
+/*TABLET*/
+}
+@media (min-width: 500px) and (max-width: 1050px){
+
+    /*Modificaciones Header*/
+    header {
+        @include flex (column, center, center);
+        height: 200px;
+
+        .logomcizarr {
+            height: 100px;
+            width: 300px;
+        }
+
+        .lista-nav {
+            width: 500px;
+            border: 4px $celeste solid;
+            border-radius: 5px;
+            padding: 10px 0px 10px 0px;
+            margin: 0px;
+        }
+
+        .lista-nav a {
+            font-size: 17.5px;
+        }
+    }
+
+     /*Modificaciones Main Index*/
+     main {
+        h1 {
+            font-size: 40px;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 35px;
+            padding: 20px;
+        }
+
+        .parrafovideos {
+            padding: 30px;
+
+            p {
+                font-size: 17.5px;
+            }
+        }
+
+    }
+       /*Modificaciones FOOTER*/
+       footer {
+        @include flex (column-reverse, center, center);
+        height: 200px;
+
+        .logomcizarrfooter {
+            height: 100px;
+            width: 200px;
+        }
+
+        .listalogos {
+
+
+            .logosfooter {
+                margin-right: 10px;
+
+                .logos {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+        }
+
+    }
+
+ /*MODIFICACIONES MAIN BEATMAKERS*/
+ main {
+    .grid-contenedor {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "div1"
+            "div2"
+            "div4"
+            "div3"
+            "div5"
+            "div6"
+        ;
+        gap: 5px;
+        padding: 0px 0px 5px 0px;
+
+
+        .grid-div1 {
+            grid-area: div1;
+        }
+
+        .grid-div2 {
+            grid-area: div2;
+        }
+
+        .grid-div3 {
+            grid-area: div3;
+        }
+
+        .grid-div4 {
+            grid-area: div4;
+        }
+
+        .grid-div5 {
+            grid-area: div5;
+        }
+
+        .grid-div6 {
+            grid-area: div6;
+        }
+
+        div {
+            height: 400px;
+            width: 100%;
+
+            .imagengrid {
+                height: 350px;
+                width: 480px;
+
+
+            }
+
+            p {
+                font-size: 17.5px;
+
+            }
+
+
+        }
+
+        h3 {
+            font-size: 30px;
+            padding: 20px;
+        }
+
+    }
+
+}
+
+
+
+/*MAIN QUIENES SOMOS*/
+main .quienes-class {
+    p {
+        font-size: 17.5px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .map-quienes {
+        padding: 30px 0px 30px 0px;
+
+        iframe {
+            height: 350px;
+            width: 480px;
+        }
+
+    }
+
+    .div-misionvision{
+        @include flex (column, center, center);
+
+    }
+    .div-mision {
+        margin: 25px;
+    }
+
+    .div-vision {
+        margin: 25px;
+    }
+
+    .mb-3 {
+        width: 480px;
+
+    }
+
+    h3 {
+        padding: 15px;
+    }
+}
+
+    /*MAIN ARTISTAS*/
+    main {
+        .artistas-class p {      
+          font-size: 17.5px;      
+          padding: 10px;
+          margin-bottom: 50px;   
+        }
+        .artistas-class .carousel-inner {
+          padding: 40px;
+        }
+        .artistas-class .carousel-inner img {
+          height: 450px;
+          
+        }
+        h4 {        
+            font-size: 50px;
+            padding: 20px;       
+          }
+    
+    }
 
 }

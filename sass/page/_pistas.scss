@@ -4,10 +4,10 @@ main {
     .pistas-class p {
         @include flex (row, center, center);
         font-family: $font;
-        font-size: 20px;
+        font-size: 25px;
         color: $negro;
         padding: 10px;
-        margin: 100px;
+        margin: 30px;
         border: 5px solid $negro;
         border-radius: 20px 20px 20px 20px;
         -webkit-border-radius: 20px 20px 20px 20px;

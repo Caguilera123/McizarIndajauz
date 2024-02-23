@@ -313,7 +313,7 @@ main .quienes-class .btn {
   }
   /*Modificaciones Main Index*/
   main h1 {
-    font-size: 40px;
+    font-size: 25px;
     padding: 20px;
   }
   main h2 {
@@ -402,7 +402,7 @@ main .quienes-class .btn {
   }
   main .quienes-class .map-quienes iframe {
     height: 300px;
-    width: 350px;
+    width: 320px;
   }
   main .quienes-class .div-misionvision {
     display: flex;
@@ -435,7 +435,7 @@ main .quienes-class .btn {
     height: 350px;
   }
   main h4 {
-    font-size: 50px;
+    font-size: 30px;
     padding: 20px;
   }
   /*TABLET*/

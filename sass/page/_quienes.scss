@@ -37,6 +37,10 @@ main {
             margin: 100px;
         }
 
+        h2{
+            color:$blanco;
+        }
+
         .mb-3 {
             width: 800px;
             @include flex (column, center, center);

@@ -102,23 +102,43 @@ main .videosyoutube {
 }
 main .iframe-video {
   border: 5px solid #000000;
+  margin-left: 20px;
 }
 main .parrafovideos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 60px;
+  padding: 20px;
 }
 main .parrafovideos p {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 22.5px;
   color: #000000;
-  padding: 10px;
+  padding: 20px;
   border: 5px solid #000000;
   border-radius: 20px 20px 20px 20px;
   -webkit-border-radius: 20px 20px 20px 20px;
   -moz-border-radius: 20px 20px 20px 20px;
+}
+main .divindex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .divindex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .divindex3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
 }
 
 /*MAIN BEATMAKER*/
@@ -313,6 +333,36 @@ main .quienes-class .btn {
   main .parrafovideos p {
     font-size: 15px;
   }
+  main .divindex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .divindex1 .iframe-video {
+    margin-left: 0px;
+    width: 320px;
+  }
+  main .divindex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .divindex2 .iframe-video {
+    margin-left: 0px;
+    width: 320px;
+  }
+  main .divindex3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .divindex3 .iframe-video {
+    margin-left: 0px;
+    width: 320px;
+  }
   /*Modificaciones FOOTER*/
   footer {
     display: flex;
@@ -424,7 +474,7 @@ main .quienes-class .btn {
   }
   /*TABLET*/
 }
-@media (min-width: 500px) and (max-width: 1050px) {
+@media (min-width: 500px) and (max-width: 1100px) {
   /*Modificaciones Header*/
   header {
     display: flex;
@@ -460,7 +510,37 @@ main .quienes-class .btn {
     padding: 30px;
   }
   main .parrafovideos p {
-    font-size: 17.5px;
+    font-size: 20px;
+  }
+  main .divindex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .divindex1 .iframe-video {
+    margin-left: 0px;
+    width: 500px;
+  }
+  main .divindex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .divindex2 .iframe-video {
+    margin-left: 0px;
+    width: 500px;
+  }
+  main .divindex3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .divindex3 .iframe-video {
+    margin-left: 0px;
+    width: 500px;
   }
   /*Modificaciones FOOTER*/
   footer {
